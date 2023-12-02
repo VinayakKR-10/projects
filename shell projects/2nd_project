@@ -2,6 +2,7 @@
 
 #Monitoring free DISK space and send an alert email
 #FILESYTEM_UTILIZATION = FU
+#I have used postfix and maix to configure the mail command present in this script
 
 FU=$(df -H | egrep -v "Filesystem|tmpfs" | grep "/dev/root" | awk '{print $5}' | tr -d %)
 TO="vinayakakr10@gmail.com"
