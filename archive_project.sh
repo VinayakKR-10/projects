@@ -5,7 +5,7 @@
 #In the given directory, if you find files more than given size ex:20mb or files older than given days ex:10days
 #compress those files and move it to archive folder
 
-#variables
+#variables list
 BASE=/home/ubuntu/projects/shell projects
 DAYS=10
 DEPTH=1
